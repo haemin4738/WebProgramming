@@ -1,0 +1,40 @@
+/*댓글 창*/
+#comment_box {
+    margin-top: 20px;
+    padding: 10px;
+	border: 1px solid #000000;
+	background-color: #d6d3d3;
+}
+#comment_box h4 {
+    margin: 0;
+    font-size: 18px;
+}
+#comment_box form {
+    margin-top: 10px;
+}
+#comment_box textarea {
+    width: 98%;
+    padding: 5px;
+    resize: none;
+}
+/*댓글 목록*/
+#comment_list li {
+	padding: 10px;
+	border: 1px solid #000000;
+	background-color: #d6d3d3;
+}
+.comment_content {
+    display: flex;
+    flex-direction: column; /* 세로로 배치 */
+    align-items: flex-start; /* 왼쪽 정렬 */
+  
+}
+.delete_button {
+	margin-left: 94%;
+}
+.recommend-text{
+    margin :1px;
+}
+
+
+
